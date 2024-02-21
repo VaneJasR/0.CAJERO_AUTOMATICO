@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(violet,slateblue, cyan);
+   
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: right;
+    justify-content: center;
+}
+
+#form{
+    display: flex;
+    background-color:  white;
+    height: 200px;
+    width: 90px;
+    border:6px solid black;
+    border-radius: 30px;
+    background-image: url(./cajero.jpg);
+    background-size: 1000px  1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1000px;
+    align-items: right;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+h4{
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+    bottom: -150px;
+    left: 180px;
+    height: 20px;
+    width: 300px;
+    color: aliceblue;
+}
+
+img.Logo{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+form input[type = 'text'],[type = 'password']{
+    display: block;
+    outline: none;
+    font-size: 1rem;
+    padding: 16px 10px;
+    margin: 5px;
+    width: 95%;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    height: 20px;
+    width: 300px;
+    position: relative;
+    bottom: -150px;
+    left: 180px;
+}
+
+button{
+    margin: auto;
+    margin-top: 25px;
+    padding: 7px 11px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(violet,slateblue, cyan);
+    position: relative;
+    bottom: -130px;
+    right: 180px;
+
+    
+}
